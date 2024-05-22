@@ -1,0 +1,29 @@
+
+.parent{
+    margin: 0 auto;
+    background-color: rgb(3, 50, 50);
+    border:2px solid red;
+    width: 500px;
+    height: 490px;
+    }
+    .child img{
+      margin-top: 10px;
+      
+        width: 475px;
+        height: 230px;
+        margin-left: 12px;
+    }
+    .al{
+        color: greenyellow;
+        font-size: 26px;
+    }
+    a{
+        
+        margin-left: 430px;
+      color: greenyellow;
+    }
+    .alyor{
+        color: white;
+        font-size: 18px;
+    }
+

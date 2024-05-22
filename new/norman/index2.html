@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16-loyiha</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="parent">
+     <p class="it"> Account Login</p> 
+     <br>
+     <br>
+<form class="bosh">
+
+<input required placeholder="Email" class="oyoq"/>
+<br>
+<br>
+<br>
+
+<input required placeholder="Password" class="oyoq2"/>
+
+<br>
+<br>
+<button class="men">Sign in</button>
+<br>
+<p>Forgot <a href="https://myaccount.google.com/">Username Password</a></p>
+
+<p>Create an acount <a href="https://accounts.google.com/lifecycle/steps/signup/name?dsh=S587327292:1707050122521748&flowEntry=SignUp&flowName=GlifWebSignIn&theme=glif&TL=AHNYTISm-xWOexCd6-K3c-zRomN-isN7g97GxuVHGeGqdDWnZnsjzTfF81ZbDD-D">Sign up</a></p>
+</form></div>
+<!-- Code injected by live-server -->
+<script>
+  // <![CDATA[  <-- For SVG support
+  if ('WebSocket' in window) {
+    (function () {
+      function refreshCSS() {
+        var sheets = [].slice.call(document.getElementsByTagName("link"));
+        var head = document.getElementsByTagName("head")[0];
+        for (var i = 0; i < sheets.length; ++i) {
+          var elem = sheets[i];
+          var parent = elem.parentElement  head;
+          parent.removeChild(elem);
+          var rel = elem.rel;
+          if (elem.href && typeof rel != "string"  rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+          }
+          parent.appendChild(elem);
+        }
+      }
+      var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+      var address = protocol + window.location.host + window.location.pathname + '/ws';
+      var socket = new WebSocket(address);
+      socket.onmessage = function (msg) {
+        if (msg.data == 'reload') window.location.reload();
+        else if (msg.data == 'refreshcss') refreshCSS();
+      };
+      if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+        console.log('Live reload enabled.');
+        sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+      }
+    })();
+  }
+  else {
+    console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+  }
+  // ]]>
+</script>
+</body>
+</html>

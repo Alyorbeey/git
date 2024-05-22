@@ -1,0 +1,38 @@
+.parent{
+    margin: 0 auto;
+    border: 2px solid red;
+    background-color: rgb(205, 169, 101);
+    width: 650px;
+    height: 460px;
+}
+.child{
+    background-color: blueviolet;
+    width:130px ;
+    height: 150px;
+    display: inline-block;
+    margin-top: 280px;
+    margin-left: 40px;
+    
+}
+.child2{
+    background-color: rgb(66, 66, 255);
+    width:130px ;
+    height: 220px;
+    display:inline-block ;
+   
+}
+.child3{
+ background-color: rgb(201, 168, 6);
+ width:130px ;
+ height: 290px;
+ display:inline-block ;
+
+  
+}
+.child4{
+    background-color: rgb(192, 88, 43);
+    width:130px ;
+    height:360px ;
+    display:inline-block ;
+
+}

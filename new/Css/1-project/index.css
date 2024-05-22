@@ -1,0 +1,11 @@
+p{
+    color:red;
+    background-color: yellow;
+    width: 400px;
+}
+h1{
+    color:blue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeuLh5RyUR6FDYZi9MQeD7RoQfU90cY67quA&usqp=CAU");
+    width: 250px;
+    height: 200px;
+}
